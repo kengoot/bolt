@@ -124,7 +124,7 @@ body {
   padding-top: 40px;
 }
 
-.our-latest-work__images__img {
+.our-latest-work__images__link {
   cursor: pointer;
   margin-bottom: 80px;
   margin-left: 100px;
@@ -132,15 +132,15 @@ body {
   transition-duration: 0.3s;
 }
 
-.our-latest-work__images__img:nth-child(3n + 1) {
+.our-latest-work__images__link:nth-child(3n + 1) {
   margin-left: 0;
 }
 
-.our-latest-work__images__img:nth-child(n + 4) {
+.our-latest-work__images__link:nth-child(n + 4) {
   margin-bottom:0;
 }
 
-.our-latest-work__images__img:hover {
+.our-latest-work__images__link:hover {
   opacity: 1;
 }
 
