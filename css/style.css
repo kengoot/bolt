@@ -1,3 +1,7 @@
+body {
+  font-family: Lato;
+}
+
 .inner {
   margin: 0 auto;
   width: 1100px;
@@ -36,6 +40,7 @@
   background-color: #74cfae;
   cursor: pointer;
   padding: 14px 12px;
+  text-decoration: none;
 }
 
 .header__inner__button__text {
@@ -97,7 +102,7 @@
   font-size: 20px;
   text-align: center;
   margin-left: 120px;
-  width: 750px;
+  width: 650px;
   word-break: normal;
 }
 
@@ -149,7 +154,7 @@
 .our-latest-work__description__text {
   margin-right: 90px;
   text-align: center;
-  width: 530px;
+  width: 460px;
   word-break: normal;
 }
 
@@ -159,6 +164,7 @@
   cursor: pointer;
   font-size: 12px;
   padding: 14px 20px;
+  text-decoration: none;
   transition-duration: 0.3s;
 }
 
@@ -180,8 +186,6 @@
 }
 
 .our-skills__graph {
-  /* width: 1100px; */
-  /* margin: 0 auto; */
   display: flex;
 }
 
