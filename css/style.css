@@ -1,3 +1,5 @@
+@charset "UTF-8";
+
 body {
   font-family: Lato;
 }
@@ -13,12 +15,9 @@ main {
 
 .header {
   background-color: #fff;
-  left: 50%;
   position: fixed;
-  top: 0%;
-  transform: translate(-50%, 0%);
   width: 100%;
-  z-index: 1;
+  z-index: 100000;
 }
 
 .header__inner {
@@ -26,10 +25,6 @@ main {
   display: flex;
   justify-content: space-between;
   padding: 15px 0;
-}
-
-.header__inner__bolt {
-  cursor: pointer;
 }
 
 .header__inner__bolt__icon {
@@ -129,10 +124,12 @@ main {
 
 .our-latest-work__images li {
   cursor: pointer;
+  height: 300px;
   margin-top: 80px;
   margin-left: 100px;
   opacity: 0.7;
   transition-duration: 0.3s;
+  width: 300px;
 }
 
 .our-latest-work__images li:nth-child(3n + 1) {
@@ -145,6 +142,12 @@ main {
 
 .our-latest-work__images li:hover {
   opacity: 1;
+}
+
+.our-latest-work__images li a {
+  display: inline-block;
+  height: 300px;
+  width: 300px;
 }
 
 .our-latest-work__description {
@@ -188,11 +191,11 @@ main {
 .our-skills__header {
   color: #fff;
   font-size: 24px;
-  margin-bottom: 70px;
 }
 
 .our-skills__graph {
   display: flex;
+  margin-top: 70px;
   justify-content: center;
 }
 
@@ -223,9 +226,9 @@ main {
 
 .sns__inner li {
   background-color: #f2f2f2;
+  box-sizing: border-box;
   cursor: pointer;
-  height: 100px;
-  position: relative;
+  text-align: center;
   transition-duration: 0.3s;
   width: 185px;
 }
@@ -234,13 +237,15 @@ main {
   background-color: #fff;
 }
 
+.sns__inner li a {
+  display: inline-block;
+  width: 185px;
+}
+
 .sns__inner li i {
+  padding: 25px 0;
   color: #74cfae;
   font-size: 48px;
-  left: 50%;
-  position: absolute;
-  top: 50%;
-  transform: translate(-50%, -50%);
 }
 
 
